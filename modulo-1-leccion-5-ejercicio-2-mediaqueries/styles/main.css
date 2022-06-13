@@ -1,0 +1,21 @@
+
+  @media all and (max-width: 480px) {
+    .box {
+      background: red;
+      height: 300px;
+    }
+  }
+
+  @media all and (max-width: 768px) and (min-width: 480px){
+    .box {
+      background: yellow;
+      height: 300px;
+    }
+  }
+
+  @media all and (min-width: 768px){
+    .box {
+      background: green;
+      height: 300px;
+    }
+  }

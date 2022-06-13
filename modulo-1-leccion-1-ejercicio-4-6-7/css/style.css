@@ -1,0 +1,50 @@
+
+table {
+    border-collapse: collapse;
+  }
+  
+  td {
+    border: black 1px solid;
+  }
+
+  .links {
+    color: red;
+  }
+
+  article {
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rebeccapurple ;
+    background-color: mediumpurple;
+    line-height: 1.5;
+
+  }
+
+  .col {
+    margin: 10px 30px;
+    display: inline-block;
+  }
+
+  .box1 {
+    border: fuchsia 1px solid;
+    width: 130px;
+    height: 150px;
+    background-color:aqua;
+  }
+
+  .box2 {
+    border: fuchsia 1px solid;
+    width: 130px;
+    height: 130px;
+    background-image:url(https://www.fillmurray.com/130/130);
+    background-repeat: no-repeat;
+  }
+  .box3 {
+    border: fuchsia 1px solid;
+    width: 120px;
+    height: 120px;
+    background-color:aqua;
+    background-image: url(https://www.fillmurray.com/110/110);
+    background-repeat: no-repeat;
+    background-position: center;
+  }

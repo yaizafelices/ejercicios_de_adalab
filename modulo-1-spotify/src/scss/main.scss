@@ -1,0 +1,15 @@
+@import 'core/reset';
+@import 'core/variables';
+@import 'layout/header';
+@import 'layout/hero';
+@import 'layout/benefits';
+@import 'layout/footer';
+
+
+  
+  /* main */
+  
+  .main {
+    margin-top: 60px; /* esto es lo que mide el header */
+  }
+  
