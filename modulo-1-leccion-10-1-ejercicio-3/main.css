@@ -1,0 +1,25 @@
+body{margin:0;}
+.wrapper{
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 5px;
+}
+
+.item{
+  color: black;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+    grid-column: span 2;
+}
+
+
+  .footer {
+    grid-column: span 2;
+  }
