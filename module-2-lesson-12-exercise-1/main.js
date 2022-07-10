@@ -30,8 +30,8 @@ const users = [
   ];
 
 const welcome = (users) => {
-    if(users === isPremium){"Bienvenida" +  users.name}
-    else{"Bienvenida Yolanda" ;}}
+    if(users.isPremium === true){"Bienvenida" +  users.name}
+    else{"Bienvenida Yolanda"}}
 
 const sayWelcome = users.map(welcome);
 
