@@ -51,9 +51,9 @@ const users3 = [
     { name: "Inmaculada", isPremium: false, pin: 8998 },
   ];
 
-  const index = users3.find((pins) => users3.pin === 5232);
+  const user3Selected = users3.find(user => user.pin === 5232);
 
-  console.log(index);
+  console.log(user3Selected);
 
 
 // b) Resulta que el usuario se ha dado de baja por la incidencia :( ¿Podrías borrarlo del array de usuarios? Usa el método findIndex para encontrar su posición y bórralo usando splice.
